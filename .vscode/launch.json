@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "java",
             "name": "Current File",
@@ -12,7 +13,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "Projeto Varellaaaaaa_5bd159f3",
+            "projectName": "Conta-Justa_e60ee5ff",
             "vmArgs": "--module-path \"C:/Program Files/Java/Java Libs/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
