@@ -85,7 +85,7 @@ public class RussianRouletteController {
          Random prizeDrawn = new Random();
          int winName = prizeDrawn.nextInt(participantsNames.size());
 
-         System.out.println("O(a) " + participantsNames.get(winName) + " pagará a conta sozinho(a).");
+         System.out.println("O (a) " + participantsNames.get(winName) + " pagará a conta sozinho (a).");
       }
       else
       {
