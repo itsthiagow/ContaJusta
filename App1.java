@@ -18,5 +18,7 @@ public class App1 extends Application{
         primaryStage.setTitle("Roleta Russa");
         primaryStage.setScene(windowScene);
         primaryStage.show();
+
+        
     }
 }
