@@ -1,3 +1,5 @@
+package src;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,7 +13,7 @@ public class App1 extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("src/resources/layout.fxml"));
         Parent root = fxmlLoader.load();
         Scene windowScene = new Scene(root, 1029, 584);
 
