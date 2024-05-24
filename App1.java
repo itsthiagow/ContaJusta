@@ -13,10 +13,10 @@ public class App1 extends Application{
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
         Parent root = fxmlLoader.load();
-        Scene window = new Scene(root, 1029, 584);
+        Scene windowScene = new Scene(root, 1029, 584);
 
         primaryStage.setTitle("Roleta Russa");
-        primaryStage.setScene(window);
+        primaryStage.setScene(windowScene);
         primaryStage.show();
     }
 }
