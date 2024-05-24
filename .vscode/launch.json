@@ -5,23 +5,15 @@
             "type": "java",
             "name": "App1",
             "request": "launch",
-            "mainClass": "App1",
-            "projectName": "Conta-Justa_e60ee5ff",
-            "vmArgs": "--module-path \"C:/Program Files/Java/Java Libs/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "App1",
-            "request": "launch",
-            "mainClass": "App1",
+            "mainClass": "src.App1",
             "projectName": "ContaJusta_3fd2e488",
             "vmArgs": "--module-path \"C:/Users/202203043171/Downloads/contajusta/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "App",
             "request": "launch",
-            "mainClass": "App",
+            "mainClass": "src.App",
             "projectName": "ContaJusta_3fd2e488",
             "vmArgs": "--module-path \"C:/Users/202203043171/Downloads/contajusta/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },
@@ -30,14 +22,6 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "Conta-Justa_e60ee5ff",
-            "vmArgs": "--module-path \"C:/Program Files/Java/Java Libs/javafx-sdk-22.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
